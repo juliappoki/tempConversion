@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section>
+        <div class="main">
+
+            <div class="title">
+                <h3> TEMPERATURE CONVERTER™</h3> <br>
+                <p>Use this tool to convert between a useful, international measurement unit <strong>(Celsius)</strong> and one from the United States <strong>(Fahrenheit)</strong>.</p>
+            </div>
+
+            <div class="middle">
+                <label for="tempInput"> Input temperature: </label>
+                <input type="text" id="tempInput">
+
+                    <div class="selectButtons">
+                        <div class="btCelsius">
+                            <input type="radio" id="Celsius" name="mUnit">
+                            <label for="rad1"> Celsius </label>
+                        </div>
+                        <div class="btCelsius">
+                            <input type="radio" id="Fahrenheit" name="mUnit">
+                            <label for="rad2"> Fahrenheit </label>
+                        </div>
+                    </div>
+
+                    <div class="result">
+                        <p>Result: <p id="cTemp"></p></p>
+                    </div>
+            </div>
+
+                <button type="button" id="btConvert"> CONVERT </button>
+                
+                <script type="text/javascript" src="script.js"> </script>
+        </div>
+        </section>
+    </body>
+
+</html>
